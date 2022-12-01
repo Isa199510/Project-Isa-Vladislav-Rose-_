@@ -28,5 +28,6 @@ class ShoppingListViewCell: UITableViewCell {
     func configure(_ shopping: ShoppingLists) {
         nameShopping.text = shopping.name
         totalPriceShopping.text = shopping.totalPrice == 0 ? "" : "Общая сумма: \(shopping.totalPrice)"
+        imageChekbox.image = UIImage(named: "checkbox()")
     }
 }

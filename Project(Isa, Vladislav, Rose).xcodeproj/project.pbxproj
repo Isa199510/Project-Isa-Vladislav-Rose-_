@@ -21,6 +21,7 @@
 		F4E2D9702938A0EE003CDC19 /* Vladislav.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4E2D96F2938A0EE003CDC19 /* Vladislav.storyboard */; };
 		F4E2D9752938A22B003CDC19 /* ShoppingList.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E2D9742938A22B003CDC19 /* ShoppingList.swift */; };
 		F4E2D9782938A268003CDC19 /* DataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E2D9772938A268003CDC19 /* DataStore.swift */; };
+		F4F7FD7829392D1D004CEB3B /* Icons.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4F7FD7729392D1D004CEB3B /* Icons.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		F4E2D96F2938A0EE003CDC19 /* Vladislav.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Vladislav.storyboard; sourceTree = "<group>"; };
 		F4E2D9742938A22B003CDC19 /* ShoppingList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingList.swift; sourceTree = "<group>"; };
 		F4E2D9772938A268003CDC19 /* DataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStore.swift; sourceTree = "<group>"; };
+		F4F7FD7729392D1D004CEB3B /* Icons.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Icons.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +101,9 @@
 			isa = PBXGroup;
 			children = (
 				F4AAB1042938FACC00EA27DB /* Isa.storyboard */,
-				F4AAB0FC2938F50C00EA27DB /* Media.xcassets */,
 				F4AAB0FE2938F65700EA27DB /* ShoppingListViewCell.swift */,
 				F4AAB1002938F6B600EA27DB /* ShoppingListViewController.swift */,
+				F4F7FD7729392D1D004CEB3B /* Icons.xcassets */,
 			);
 			path = Isa;
 			sourceTree = "<group>";
@@ -199,7 +201,7 @@
 			files = (
 				F4E2D96229389F96003CDC19 /* LaunchScreen.storyboard in Resources */,
 				F4E2D9702938A0EE003CDC19 /* Vladislav.storyboard in Resources */,
-				F4AAB0FD2938F50C00EA27DB /* Media.xcassets in Resources */,
+				F4F7FD7829392D1D004CEB3B /* Icons.xcassets in Resources */,
 				F4AAB1022938FACC00EA27DB /* Isa.storyboard in Resources */,
 				F4E2D95F29389F96003CDC19 /* Assets.xcassets in Resources */,
 				F4E2D95D29389F94003CDC19 /* Main.storyboard in Resources */,
