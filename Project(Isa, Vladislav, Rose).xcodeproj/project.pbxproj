@@ -15,6 +15,8 @@
 		F4E2D96E2938A0DA003CDC19 /* Rose.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4E2D96D2938A0DA003CDC19 /* Rose.storyboard */; };
 		F4E2D9702938A0EE003CDC19 /* Vladislav.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4E2D96F2938A0EE003CDC19 /* Vladislav.storyboard */; };
 		F4E2D9722938A0F5003CDC19 /* Isa.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4E2D9712938A0F5003CDC19 /* Isa.storyboard */; };
+		F4E2D9752938A22B003CDC19 /* ShoppingList.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E2D9742938A22B003CDC19 /* ShoppingList.swift */; };
+		F4E2D9782938A268003CDC19 /* DataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E2D9772938A268003CDC19 /* DataStore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		F4E2D96D2938A0DA003CDC19 /* Rose.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Rose.storyboard; sourceTree = "<group>"; };
 		F4E2D96F2938A0EE003CDC19 /* Vladislav.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Vladislav.storyboard; sourceTree = "<group>"; };
 		F4E2D9712938A0F5003CDC19 /* Isa.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Isa.storyboard; sourceTree = "<group>"; };
+		F4E2D9742938A22B003CDC19 /* ShoppingList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingList.swift; sourceTree = "<group>"; };
+		F4E2D9772938A268003CDC19 /* DataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 		F4E2D95429389F94003CDC19 /* Project(Isa, Vladislav, Rose) */ = {
 			isa = PBXGroup;
 			children = (
+				F4E2D9762938A254003CDC19 /* DataStore */,
+				F4E2D9732938A219003CDC19 /* Models */,
 				F4E2D96C2938A0CA003CDC19 /* Rose */,
 				F4E2D96B2938A0C3003CDC19 /* Vladislav */,
 				F4E2D96A2938A0BC003CDC19 /* Isa */,
@@ -103,6 +109,22 @@
 				F4E2D96D2938A0DA003CDC19 /* Rose.storyboard */,
 			);
 			path = Rose;
+			sourceTree = "<group>";
+		};
+		F4E2D9732938A219003CDC19 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F4E2D9742938A22B003CDC19 /* ShoppingList.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F4E2D9762938A254003CDC19 /* DataStore */ = {
+			isa = PBXGroup;
+			children = (
+				F4E2D9772938A268003CDC19 /* DataStore.swift */,
+			);
+			path = DataStore;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -180,6 +202,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				F4E2D95629389F94003CDC19 /* AppDelegate.swift in Sources */,
+				F4E2D9782938A268003CDC19 /* DataStore.swift in Sources */,
+				F4E2D9752938A22B003CDC19 /* ShoppingList.swift in Sources */,
 				F4E2D95829389F94003CDC19 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
