@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F4AAB0FD2938F50C00EA27DB /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4AAB0FC2938F50C00EA27DB /* Media.xcassets */; };
+		F4AAB0FF2938F65700EA27DB /* ShoppingListViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4AAB0FE2938F65700EA27DB /* ShoppingListViewCell.swift */; };
+		F4AAB1012938F6B600EA27DB /* ShoppingListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4AAB1002938F6B600EA27DB /* ShoppingListViewController.swift */; };
+		F4AAB1022938FACC00EA27DB /* Isa.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4AAB1042938FACC00EA27DB /* Isa.storyboard */; };
 		F4E2D95629389F94003CDC19 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E2D95529389F94003CDC19 /* AppDelegate.swift */; };
 		F4E2D95829389F94003CDC19 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E2D95729389F94003CDC19 /* SceneDelegate.swift */; };
 		F4E2D95D29389F94003CDC19 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4E2D95B29389F94003CDC19 /* Main.storyboard */; };
@@ -14,12 +18,15 @@
 		F4E2D96229389F96003CDC19 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4E2D96029389F96003CDC19 /* LaunchScreen.storyboard */; };
 		F4E2D96E2938A0DA003CDC19 /* Rose.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4E2D96D2938A0DA003CDC19 /* Rose.storyboard */; };
 		F4E2D9702938A0EE003CDC19 /* Vladislav.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4E2D96F2938A0EE003CDC19 /* Vladislav.storyboard */; };
-		F4E2D9722938A0F5003CDC19 /* Isa.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4E2D9712938A0F5003CDC19 /* Isa.storyboard */; };
 		F4E2D9752938A22B003CDC19 /* ShoppingList.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E2D9742938A22B003CDC19 /* ShoppingList.swift */; };
 		F4E2D9782938A268003CDC19 /* DataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E2D9772938A268003CDC19 /* DataStore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F4AAB0FC2938F50C00EA27DB /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
+		F4AAB0FE2938F65700EA27DB /* ShoppingListViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingListViewCell.swift; sourceTree = "<group>"; };
+		F4AAB1002938F6B600EA27DB /* ShoppingListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingListViewController.swift; sourceTree = "<group>"; };
+		F4AAB1032938FACC00EA27DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Isa.storyboard; sourceTree = "<group>"; };
 		F4E2D95229389F94003CDC19 /* Project(Isa, Vladislav, Rose).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Project(Isa, Vladislav, Rose).app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4E2D95529389F94003CDC19 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F4E2D95729389F94003CDC19 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -29,7 +36,6 @@
 		F4E2D96329389F96003CDC19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F4E2D96D2938A0DA003CDC19 /* Rose.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Rose.storyboard; sourceTree = "<group>"; };
 		F4E2D96F2938A0EE003CDC19 /* Vladislav.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Vladislav.storyboard; sourceTree = "<group>"; };
-		F4E2D9712938A0F5003CDC19 /* Isa.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Isa.storyboard; sourceTree = "<group>"; };
 		F4E2D9742938A22B003CDC19 /* ShoppingList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingList.swift; sourceTree = "<group>"; };
 		F4E2D9772938A268003CDC19 /* DataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -90,7 +96,10 @@
 		F4E2D96A2938A0BC003CDC19 /* Isa */ = {
 			isa = PBXGroup;
 			children = (
-				F4E2D9712938A0F5003CDC19 /* Isa.storyboard */,
+				F4AAB1042938FACC00EA27DB /* Isa.storyboard */,
+				F4AAB0FC2938F50C00EA27DB /* Media.xcassets */,
+				F4AAB0FE2938F65700EA27DB /* ShoppingListViewCell.swift */,
+				F4AAB1002938F6B600EA27DB /* ShoppingListViewController.swift */,
 			);
 			path = Isa;
 			sourceTree = "<group>";
@@ -187,7 +196,8 @@
 			files = (
 				F4E2D96229389F96003CDC19 /* LaunchScreen.storyboard in Resources */,
 				F4E2D9702938A0EE003CDC19 /* Vladislav.storyboard in Resources */,
-				F4E2D9722938A0F5003CDC19 /* Isa.storyboard in Resources */,
+				F4AAB0FD2938F50C00EA27DB /* Media.xcassets in Resources */,
+				F4AAB1022938FACC00EA27DB /* Isa.storyboard in Resources */,
 				F4E2D95F29389F96003CDC19 /* Assets.xcassets in Resources */,
 				F4E2D95D29389F94003CDC19 /* Main.storyboard in Resources */,
 				F4E2D96E2938A0DA003CDC19 /* Rose.storyboard in Resources */,
@@ -203,14 +213,24 @@
 			files = (
 				F4E2D95629389F94003CDC19 /* AppDelegate.swift in Sources */,
 				F4E2D9782938A268003CDC19 /* DataStore.swift in Sources */,
+				F4AAB1012938F6B600EA27DB /* ShoppingListViewController.swift in Sources */,
 				F4E2D9752938A22B003CDC19 /* ShoppingList.swift in Sources */,
 				F4E2D95829389F94003CDC19 /* SceneDelegate.swift in Sources */,
+				F4AAB0FF2938F65700EA27DB /* ShoppingListViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		F4AAB1042938FACC00EA27DB /* Isa.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4AAB1032938FACC00EA27DB /* Base */,
+			);
+			name = Isa.storyboard;
+			sourceTree = "<group>";
+		};
 		F4E2D95B29389F94003CDC19 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -356,7 +376,7 @@
 				INFOPLIST_FILE = "Project(Isa, Vladislav, Rose)/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = Isa;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -384,7 +404,7 @@
 				INFOPLIST_FILE = "Project(Isa, Vladislav, Rose)/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = Isa;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
