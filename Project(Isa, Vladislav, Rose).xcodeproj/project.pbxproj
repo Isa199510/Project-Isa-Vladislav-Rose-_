@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F4AAB0FD2938F50C00EA27DB /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4AAB0FC2938F50C00EA27DB /* Media.xcassets */; };
 		F4AAB0FF2938F65700EA27DB /* ShoppingListViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4AAB0FE2938F65700EA27DB /* ShoppingListViewCell.swift */; };
 		F4AAB1012938F6B600EA27DB /* ShoppingListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4AAB1002938F6B600EA27DB /* ShoppingListViewController.swift */; };
 		F4AAB1022938FACC00EA27DB /* Isa.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4AAB1042938FACC00EA27DB /* Isa.storyboard */; };
@@ -23,7 +22,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		F4AAB0FC2938F50C00EA27DB /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 		F4AAB0FE2938F65700EA27DB /* ShoppingListViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingListViewCell.swift; sourceTree = "<group>"; };
 		F4AAB1002938F6B600EA27DB /* ShoppingListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingListViewController.swift; sourceTree = "<group>"; };
 		F4AAB1032938FACC00EA27DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Isa.storyboard; sourceTree = "<group>"; };
@@ -97,7 +95,6 @@
 			isa = PBXGroup;
 			children = (
 				F4AAB1042938FACC00EA27DB /* Isa.storyboard */,
-				F4AAB0FC2938F50C00EA27DB /* Media.xcassets */,
 				F4AAB0FE2938F65700EA27DB /* ShoppingListViewCell.swift */,
 				F4AAB1002938F6B600EA27DB /* ShoppingListViewController.swift */,
 			);
@@ -196,7 +193,6 @@
 			files = (
 				F4E2D96229389F96003CDC19 /* LaunchScreen.storyboard in Resources */,
 				F4E2D9702938A0EE003CDC19 /* Vladislav.storyboard in Resources */,
-				F4AAB0FD2938F50C00EA27DB /* Media.xcassets in Resources */,
 				F4AAB1022938FACC00EA27DB /* Isa.storyboard in Resources */,
 				F4E2D95F29389F96003CDC19 /* Assets.xcassets in Resources */,
 				F4E2D95D29389F94003CDC19 /* Main.storyboard in Resources */,
