@@ -34,22 +34,12 @@
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
                     <connections>
-                        <segue destination="gaN-Mo-GTX" kind="relationship" relationship="viewControllers" id="ddL-9r-fMJ"/>
+                        <segue destination="AXK-Df-w05" kind="relationship" relationship="viewControllers" id="KRa-ep-hxw"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="enh-qO-OCl" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-519" y="-37"/>
-        </scene>
-        <!--Isa-->
-        <scene sceneID="Bbp-zy-0Tq">
-            <objects>
-                <viewControllerPlaceholder storyboardName="Isa" id="gaN-Mo-GTX" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="CrI-nf-Y4a"/>
-                </viewControllerPlaceholder>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Hbm-iC-5a2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="410" y="-371"/>
         </scene>
     </scenes>
     <resources>
