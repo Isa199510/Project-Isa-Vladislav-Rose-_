@@ -8,10 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		243B74E8293924120022CFA5 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243B74E7293924120022CFA5 /* File.swift */; };
-		F4AAB0FD2938F50C00EA27DB /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4AAB0FC2938F50C00EA27DB /* Media.xcassets */; };
 		F4AAB0FF2938F65700EA27DB /* ShoppingListViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4AAB0FE2938F65700EA27DB /* ShoppingListViewCell.swift */; };
 		F4AAB1012938F6B600EA27DB /* ShoppingListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4AAB1002938F6B600EA27DB /* ShoppingListViewController.swift */; };
-		F4AAB1022938FACC00EA27DB /* Isa.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4AAB1042938FACC00EA27DB /* Isa.storyboard */; };
 		F4E2D95629389F94003CDC19 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E2D95529389F94003CDC19 /* AppDelegate.swift */; };
 		F4E2D95829389F94003CDC19 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E2D95729389F94003CDC19 /* SceneDelegate.swift */; };
 		F4E2D95D29389F94003CDC19 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4E2D95B29389F94003CDC19 /* Main.storyboard */; };
@@ -26,10 +24,8 @@
 
 /* Begin PBXFileReference section */
 		243B74E7293924120022CFA5 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
-		F4AAB0FC2938F50C00EA27DB /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 		F4AAB0FE2938F65700EA27DB /* ShoppingListViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingListViewCell.swift; sourceTree = "<group>"; };
 		F4AAB1002938F6B600EA27DB /* ShoppingListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingListViewController.swift; sourceTree = "<group>"; };
-		F4AAB1032938FACC00EA27DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Isa.storyboard; sourceTree = "<group>"; };
 		F4E2D95229389F94003CDC19 /* Project(Isa, Vladislav, Rose).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Project(Isa, Vladislav, Rose).app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4E2D95529389F94003CDC19 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F4E2D95729389F94003CDC19 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -100,7 +96,6 @@
 		F4E2D96A2938A0BC003CDC19 /* Isa */ = {
 			isa = PBXGroup;
 			children = (
-				F4AAB1042938FACC00EA27DB /* Isa.storyboard */,
 				F4AAB0FE2938F65700EA27DB /* ShoppingListViewCell.swift */,
 				F4AAB1002938F6B600EA27DB /* ShoppingListViewController.swift */,
 				F4F7FD7729392D1D004CEB3B /* Icons.xcassets */,
@@ -202,7 +197,6 @@
 				F4E2D96229389F96003CDC19 /* LaunchScreen.storyboard in Resources */,
 				F4E2D9702938A0EE003CDC19 /* Vladislav.storyboard in Resources */,
 				F4F7FD7829392D1D004CEB3B /* Icons.xcassets in Resources */,
-				F4AAB1022938FACC00EA27DB /* Isa.storyboard in Resources */,
 				F4E2D95F29389F96003CDC19 /* Assets.xcassets in Resources */,
 				F4E2D95D29389F94003CDC19 /* Main.storyboard in Resources */,
 				F4E2D96E2938A0DA003CDC19 /* Rose.storyboard in Resources */,
@@ -229,14 +223,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		F4AAB1042938FACC00EA27DB /* Isa.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F4AAB1032938FACC00EA27DB /* Base */,
-			);
-			name = Isa.storyboard;
-			sourceTree = "<group>";
-		};
 		F4E2D95B29389F94003CDC19 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -382,7 +368,7 @@
 				INFOPLIST_FILE = "Project(Isa, Vladislav, Rose)/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Isa;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -410,7 +396,7 @@
 				INFOPLIST_FILE = "Project(Isa, Vladislav, Rose)/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Isa;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
