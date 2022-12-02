@@ -76,10 +76,23 @@
                             </connections>
                         </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <segue destination="mwv-RK-Ear" kind="show" id="pKs-Fl-Qc2"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="E7h-i4-Ynq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="921.73913043478262" y="-25.446428571428569"/>
+        </scene>
+        <!--Vladislav-->
+        <scene sceneID="ZzQ-ue-nGn">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Vladislav" id="mwv-RK-Ear" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="5qQ-LR-UCy"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uar-xd-SyW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1695" y="-138"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="IU4-mz-Z0d">
