@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C6E170EA293A179F00C81625 /* TFViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6E170E9293A179F00C81625 /* TFViewController.swift */; };
 		F4AAB0FD2938F50C00EA27DB /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4AAB0FC2938F50C00EA27DB /* Media.xcassets */; };
 		F4AAB0FF2938F65700EA27DB /* ShoppingListViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4AAB0FE2938F65700EA27DB /* ShoppingListViewCell.swift */; };
 		F4AAB1012938F6B600EA27DB /* ShoppingListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4AAB1002938F6B600EA27DB /* ShoppingListViewController.swift */; };
@@ -23,6 +24,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C6E170E9293A179F00C81625 /* TFViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TFViewController.swift; sourceTree = "<group>"; };
 		F4AAB0FC2938F50C00EA27DB /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 		F4AAB0FE2938F65700EA27DB /* ShoppingListViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingListViewCell.swift; sourceTree = "<group>"; };
 		F4AAB1002938F6B600EA27DB /* ShoppingListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingListViewController.swift; sourceTree = "<group>"; };
@@ -116,6 +118,7 @@
 			isa = PBXGroup;
 			children = (
 				F4E2D96D2938A0DA003CDC19 /* Rose.storyboard */,
+				C6E170E9293A179F00C81625 /* TFViewController.swift */,
 			);
 			path = Rose;
 			sourceTree = "<group>";
@@ -213,6 +216,7 @@
 			files = (
 				F4E2D95629389F94003CDC19 /* AppDelegate.swift in Sources */,
 				F4E2D9782938A268003CDC19 /* DataStore.swift in Sources */,
+				C6E170EA293A179F00C81625 /* TFViewController.swift in Sources */,
 				F4AAB1012938F6B600EA27DB /* ShoppingListViewController.swift in Sources */,
 				F4E2D9752938A22B003CDC19 /* ShoppingList.swift in Sources */,
 				F4E2D95829389F94003CDC19 /* SceneDelegate.swift in Sources */,
